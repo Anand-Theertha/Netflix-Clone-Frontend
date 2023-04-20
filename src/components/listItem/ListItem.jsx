@@ -22,10 +22,10 @@ const ListItem
 
         <div className="itemInfo">
           <div className="icons">
-            <PlayArrow />
-            <Add />
-            <ThumbUpAltOutlined />
-            <ThumbDownAltOutlined />
+            <PlayArrow className="icon"/>
+            <Add className="icon"/>
+            <ThumbUpAltOutlined className="icon"/>
+            <ThumbDownAltOutlined className="icon"/>
           </div>
 
           <div className="itemInfoTop">
@@ -33,15 +33,15 @@ const ListItem
             <span className="limit">+16</span>
             <span>1999</span>
           </div>
-
           <div className="desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsam temporrnatur veritatis nesciunt explicabo voluptas beatae.
           </div>
 
           <div className="genre">Action</div>
+
         </div>
         </>
-         )}
+        )}
     </div>
   )
 }
