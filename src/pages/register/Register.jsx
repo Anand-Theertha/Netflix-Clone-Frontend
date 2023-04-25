@@ -3,6 +3,22 @@ import React from 'react'
 import './Register.scss';
 
 const Register = () => {
+
+  //const [ password , setPassword] = useState("");
+//   const [ email , setEmail] = useState("");
+
+//   const emailRef = useRef
+  //const passwordRef = useRef
+
+//   const handleStart = () => {
+//     setEmail(emailRef.current.value)
+//   }
+
+//   const handleFinish = () => {
+//     setPassword(passwordRef.current.value)
+//   }
+
+
   return (
     <div className="register">
         <div className="top">
@@ -20,15 +36,16 @@ const Register = () => {
             <h2>Watch anywhere. Cancel anytime.</h2>
             <p>
                 Ready to watch? Enter your email to create or restart your membership.
-            </p>
-            <div className="input">
-                <input 
-                type="email"
-                placeholder="email address" />
-                <button className="registerButton">Get Started</button>
-            </div>
-        </div>
+            </p> 
+                    <div className="input">
+                        <input 
+                        type="email"
+                        placeholder="email address"   
+                        />
+                        <button className="registerButton" >Get Started</button>
+                    </div>
 
+        </div>
     </div>
   )
 }
